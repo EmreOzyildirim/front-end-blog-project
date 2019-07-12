@@ -1,0 +1,56 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-image: url("../img/giris-yap.jpg");
+}
+
+.giris-yap-alan{
+    width: 350px;
+    margin: 0px auto;
+    margin-top: 18%;
+}
+
+.giris-yap-alan h1{
+    font-weight: 900;
+    color: white;
+}
+
+.giris-baslik{
+    border-bottom: solid #4CAF50;
+    border-width: 5px;
+    width: 100px;
+    
+}
+
+.btn{
+    color: white!important;
+    text-transform: uppercase;
+    border-color: #4CAF50;
+    border-radius: 0px;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+
+i{
+    color: white;
+    position: absolute;
+    width: 26px;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+}
+
+input{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    margin: 5px 0px;
+    width: 100%;
+    text-indent: 40px;
+}
+
+.kullanici-adi-alan, .sifre-alan{
+    border-bottom: solid 1px #4CAF50;
+    padding: 5px 0px;
+}

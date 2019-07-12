@@ -1,0 +1,470 @@
+body {
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+i {
+    color: #d95204;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+
+
+.menu-alan {
+    width: 100%;
+    display: table;
+    text-transform: uppercase;
+    background-color: white;
+    height: 125px;
+}
+
+nav {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+.menu-alan .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-alan .menu-ic-alan {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+.container {
+    display: table;
+}
+
+.container .logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    float: right;
+}
+
+.container .menu {
+    display: table;
+}
+
+.container .menu-sosyal-ikonlar {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo-ic {
+    display: table;
+}
+
+.logo-ic .logo-ic-sol {
+    display: table-cell;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo-ic .logo-ic-sag {
+    display: table-cell;
+    vertical-align: middle;
+    color: darkgray;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.carousel-inner {
+    height: 570px;
+}
+
+.sol-bosluk {
+    padding-left: 30px !important;
+}
+
+
+.kimim-ben {
+    height: auto;
+
+}
+
+.kimim-ben-aciklama {
+    color: dimgray;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.kimim-ben-resim-alani {
+    width: 150px;
+    height: 150px;
+}
+
+hr {
+    background-color: #d95204;
+    width: 80px;
+}
+
+.kimim-ben-isim {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.kimim-ben-resim {
+    border-radius: 100%;
+    padding: 15px;
+
+}
+
+.kimim-ben,
+.postlar,
+.arama,
+.etiket-bulutu {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+.sidebar-postlar-baslik,
+.etiket-bulutu-baslik {
+    font-weight: bold;
+    text-align: center;
+}
+
+.etiket-bulutu-baslik {
+    font-size: 25px;
+}
+
+
+.post-baslik a {
+    color: #d95204;
+    font-weight: bold;
+}
+
+.post-baslik {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post-aciklama {
+    font-size: 13px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.post-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+input {
+    width: 100%;
+}
+
+.arama-cubugu {
+    height: 50px;
+    background-color: #f7f7f7;
+    color: dimgray;
+    padding: 10px;
+}
+
+.etiket-bulutu {
+    line-height: 40px;
+}
+
+.etiket {
+    display: inline-block;
+}
+
+.etiket a {
+    padding: 7px 14px;
+    background-color: #D95204;
+    color: white;
+}
+
+
+.blog-tarihi {
+    text-align: center;
+    color: dimgray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blog-baslik {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blog-baslik a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.blog-baslik a:hover {
+    text-decoration: none;
+}
+
+.blog-kategori {
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.blog-kategori a {
+
+    color: #D95204;
+}
+
+.blog-kategori a:hover {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.blog-yazari-resmi img {
+    width: 85px;
+    height: 85px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+.post-resmi {}
+
+.blog-post {
+    background-color: white;
+    padding: 50px 0px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.blog-aciklama {
+    font-weight: bold;
+    color: dimgray;
+    font-size: 14px;
+    padding: 15px 35px;
+}
+
+.blog-daha-fazla {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.blog-daha-fazla a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+.tecrubelerim-baslik {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    font-size: 32px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+
+.hakkimda-icerik {
+    background-color: white;
+    padding: 60px;
+    60px;
+    height: auto !important;
+    font-size: 14.5px;
+}
+
+.hakkimda-baslik {
+    color: black;
+    font-weight: bolder;
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.hakkimda {
+    margin: 20px 0;
+}
+
+.hakkimda-resim img {
+    margin-top: 5px;
+}
+
+.hakkimda-text {
+    color: #7b7b7b;
+
+}
+
+
+.egitim-bilgileri {
+    margin-top: 10px;
+    border-left: 1px solid #DDDDDD;
+    padding-left: 20px;
+    color: #7b7b7b;
+}
+
+.yorum-yap {
+    margin-top: 30px;
+    background-color: white;
+    padding: 60px 60px;
+}
+.mesaj-gonder-buton{
+    background-color: #d95204;
+    color: white;
+    
+}
+
+.email-uyarisi {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.yorum-yap input {
+    padding: 5px;
+    color: #7b7b7b;
+    font-size: 13px;
+}
+
+.mesajiniz {
+    width: 100%;
+    height: 190px;
+}
+
+label[for=mesajiniz] {
+    padding: 20px 0;
+}
+
+
+.user-alan {
+    background-color: #008b8b;
+    padding: 10px 0;
+}
+
+
+
+
+
+footer {
+    padding-top: 50px;
+    background-color: white;
+}
+
+.footer-hakkimda-aciklama {
+    font-weight: bold;
+    color: #7b7b7b;
+}
+
+.footer-son-postlar {
+    padding: 0px 15px;
+}
+
+.footer-hakkimda-baslik,
+.footer-son-postlar-baslik,
+.footer-instagram-baslik {
+    font-size: 18px;
+    color: black;
+    font-weight: bolder !important;
+}
+
+
+footer hr {
+    margin-left: 0px;
+}
+
+.footer-son-postlar-icerik {
+    border-top-style: dashed;
+    border-width: thin;
+    border-color: #7b7b7b;
+}
+
+.footer-son-postlar-item {
+    border-bottom-style: dashed;
+    border-width: thin;
+    border-color: #7b7b7b;
+    padding: 15px 0px;
+}
+
+.footer-son-postlar-item a {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+.footer-copyright-alani {
+    padding: 27px 0;
+    margin-top: 50px;
+    background-color: black;
+    color: #7b7b7b;
+    font-weight: bold;
+    font-size: 13.5px;
+
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu a {
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #7b7b7b;
+}
+
+.footer-menu a:hover {
+    color: #117dbf;
+}
+
+footer-designed-by a:hover {
+    color: #d95204;
+}
+
+.f-db-link:hover {
+    color: #d95204;
+    text-decoration: none;
+}
+
+.d-table-cell a{
+    color: #212529;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
